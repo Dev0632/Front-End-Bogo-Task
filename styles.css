@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background: #fff;
+}
+
+.title {
+    text-align: center;
+    color: #ff5285;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.unit-box {
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.most-popular {
+    border: 2px solid #ff5285;
+}
+
+.popular-tag {
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    background-color: #ff5285;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 2px 8px;
+    border-radius: 4px;
+}
+
+.radio-option {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.radio-option input {
+    margin-right: 15px;
+    transform: scale(1.2);
+}
+
+.radio-content {
+    width: 100%;
+}
+
+.unit-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.unit-name {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.discount-tag {
+    background-color: #ff5285;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.price {
+    text-align: right;
+}
+
+.current-price {
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+}
+
+.old-price {
+    font-size: 12px;
+    color: #999;
+    text-decoration: line-through;
+}
+
+.standard-text {
+    color: #666;
+    font-size: 12px;
+}
+
+.dropdowns {
+    margin-top: 15px;
+}
+
+.dropdown-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.size-dropdown,
+.color-dropdown {
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #ddd;
+    padding-top: 15px;
+}
+
+.delivery-text {
+    color: #ff5285;
+    font-weight: bold;
+}
+
+.total-text {
+    font-weight: bold;
+}
+
+.add-to-cart {
+    background-color: #ff5285;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.add-to-cart:hover {
+    background-color: #e04a73;
+}
